@@ -3,7 +3,8 @@
 
 main()
 
-{       int first,second,third;
+{
+	 int first,second,third;
 	clrscr();
 	printf("enter the value of");
 	scanf("%d",&first);
@@ -12,7 +13,7 @@ main()
 
 	third=180-(first+second);
 
-	printf("enter the third = %d",third;
+	printf("enter the third = %d",third);
 
 
 

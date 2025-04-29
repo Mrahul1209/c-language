@@ -12,6 +12,7 @@ main()
 	(mark>90)
 	? grade='A'
 		: (mark>=80)
+
 		? grade='B'
 			:(mark>=70)
 			? grade='C'

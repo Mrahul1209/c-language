@@ -3,17 +3,18 @@
 
 main()
 
-{       int n,count=0;
+{       long
+int n,count=0;
 	clrscr();
 	printf("enter your number:");
-	scanf("%d",&n);
+	scanf("%ld",&n);
 
 	while(n!=0)
 	{
 	 n=n/10;
 	 count++;
 	}
-	printf("total digit is : %d\n",count);
+	printf("total digit is : %ld\n",count);
 
 
 	getch();

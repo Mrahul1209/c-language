@@ -1,0 +1,83 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+
+{       int mark;
+	char grade;
+	clrscr();
+	printf("enter your marks:");
+	scanf("%d",&mark);
+
+	(mark>90)
+	? grade='A'
+		: (mark>=80)
+		? grade='B'
+			:(mark>=70)
+			? grade='C'
+				:(mark>=60)
+				? grade='D'
+					:(mark>=50)
+					? grade='E'
+						:(mark>=40)
+						? grade='F'
+						:printf("sorry you are fail\n");
+
+
+
+
+						switch(grade)
+						{
+							case 'A':
+							clrscr();
+							printf(" youe grade = %c\n\nexelent work\n!",grade);
+							break;
+
+							case 'B':
+							clrscr();
+							printf("youe grade = %c\n\n well done\n!!",grade);
+							break;
+
+							case 'C':
+							clrscr();
+							printf("youe grade = %c\n\n Good job!!\n",grade);
+							break;
+
+							case 'D':
+							clrscr();
+							printf("youe grade = %c\n\n Better work\n!!",grade);
+							break;
+
+							case 'E':
+							clrscr();
+							printf("youe grade = %c\n\n you Passed!!\n",grade);
+							break;
+
+							case 'F':
+							clrscr();
+							printf("youe grade = %c\n\n Sorry you failed\n!!",grade);
+							break;
+
+							default :
+							clrscr();
+							printf("invalid grade sorry\n!!");
+
+
+
+
+						}
+
+						if(grade== 'A' || grade== 'B'|| grade== 'C' || grade== 'D'|| grade== 'E')
+						{
+							printf("you are eligible for next level!!");
+						}
+						else
+						{
+							printf("you are not eligible !!");
+						}
+
+
+	getch();
+
+
+}

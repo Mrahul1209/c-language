@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+
+{
+	 int first,second,third;
+	clrscr();
+	printf("enter the value of");
+	scanf("%d",&first);
+	printf("enter the value of");
+	scanf("%d",&second);
+
+	third=180-(first+second);
+
+	printf("enter the third = %d",third);
+
+
+
+
+
+
+
+
+	getch();
+
+
+}

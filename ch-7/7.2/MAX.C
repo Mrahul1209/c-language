@@ -1,0 +1,65 @@
+#include <stdio.h>
+#include <conio.h>
+main()
+
+
+{       int a,b,c,d;
+	clrscr();
+	  printf("enter the first number:");
+	  scanf("%d",&a);
+	  printf("enter the second number:");
+	  scanf("%d",&b);
+	  printf("enter the third number:");
+	  scanf("%d",&c);
+	  if(a==b && a==c && b==c)
+	  {
+	       clrscr();
+	       printf("all are equal");
+	  }
+	  else if(a==b || a==c || b==c)
+	  {
+		clrscr();
+		printf("both are equal");
+	  }
+	  else
+
+	    if(a>b)
+		{
+			if(a>c)
+		{
+			 clrscr();
+			printf("%d is max number",a);
+		}
+		else
+		{
+			 clrscr();
+			printf("%d is max number",c);
+		}
+
+	  }
+
+	  else
+	  {
+		if(b>c)
+		{
+			 clrscr();
+			printf("%d is max number :",b);
+		}
+		else
+		{
+			clrscr();
+			printf("%d is max number",c);
+		}
+	  }
+
+
+
+
+
+
+
+	getch();
+
+
+
+}
